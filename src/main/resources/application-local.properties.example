@@ -1,0 +1,12 @@
+# Local Configuration Template
+# Copy this file to application-local.properties and fill in your API keys
+# This file is gitignored - DO NOT COMMIT application-local.properties
+
+# Geoapify API Key for address resolution
+# Get your key from: https://www.geoapify.com/
+geoapify.api.key=YOUR_GEOAPIFY_API_KEY_HERE
+
+# Holiday API Key (optional)
+# Get your key from: https://holidayapi.com/
+holiday.api.key=YOUR_HOLIDAY_API_KEY_HERE
+
