@@ -1,0 +1,53 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Build artifacts (will be rebuilt in Docker)
+build/
+.gradle/
+out/
+bin/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.settings/
+.classpath
+.project
+
+# Logs
+*.log
+logs/
+app.log
+
+# Local configuration files (sensitive - should not be in image)
+application-local.properties
+*.local.properties
+.env
+.env.local
+.env.*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Documentation (not needed in container)
+*.md
+!README.md
+DOCKER_GUIDE.md
+
+# Test files and scripts (but keep gradlew!)
+test-*.sh
+check-*.sh
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
